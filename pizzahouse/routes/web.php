@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/pizzas', function () {
   // get data from a database
+  //  return view('pizzas', ['type' => 'hawaiian', 'base' => 'cheesy crust']
   $pizza = [
     'type' => 'hawaiian', 
     'base' => 'cheesy crust',
